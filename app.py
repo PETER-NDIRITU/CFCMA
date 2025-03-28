@@ -18,7 +18,7 @@ import tempfile
 
 # Initialize Earth Engine
 ee.Authenticate() 
-ee.Initialize(project='ee-thukupeter487soknotproject')
+ee.Initialize(project='my-project')
 
 def load_kenyan_counties():
     return gpd.read_file(
